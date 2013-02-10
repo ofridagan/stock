@@ -1,13 +1,13 @@
 {{{
-    "title"    : "Dancer.js, a high-level audio API",
+    "title"    : "Stock.js - stocks exchange for Node.js",
     "tags"     : [ "web audio", "audio data", "webgl" ],
     "category" : "audio",
     "date"     : "7-30-2012",
-    "preview"  : "dancer.js is a high-level audio API, usable with both Mozilla's Audio Data API and Webkit's Web Audio API with flash fallback, designed to make sweet visualizations.\nhttp://jsantell.github.com/dancer.js\n\n_v0.2.1 (6/15/2012)_\n\nFeatures\n\n---\n* Use real-time audio waveform and frequency data and map it to any arbitrary visualization\n* Leverage beat detection into your visualizations\n* Simple API to time callbacks and events to any section of a song\n* Supports Web Audio (webkit), Audio Data (mozilla) and flash fallback (v9+)\n* Extensible framework supporting plugins and custom behaviours"
+    "preview"  : "Stock.js is a simple and flexible stocks exchanging platform for node.jsi"
 
 }}}
 
-dancer.js is a high-level audio API, usable with both Mozilla's Audio Data API and Webkit's Web Audio API with flash fallback, designed to make sweet visualizations.
+Stock.js is a simple and flexible stocks exchanging platform for node.js
 
 <script>
   console.log('this is a script parse test');

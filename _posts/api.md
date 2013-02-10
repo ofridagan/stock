@@ -1,11 +1,11 @@
 {{{
-    "title"    : "Extend your node requests",
+    "title"    : "Stock API",
     "tags"     : [ "node" ],
     "category" : "node",
     "date"     : "7-22-2012"
 }}}
 
-Jumps in your middleware and extends route requests with references
+The following is the Stock API v0.1
 
 ## Installation ##
 
