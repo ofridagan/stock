@@ -1,10 +1,26 @@
-extends layout
+extends base-layout
 
-block content
-  - var posts = getPosts(0,5)
-  - var page  = 1
-  - each post in posts
-    include includes/postSnippet
-
-  include includes/pagination
-
+block main-content
+  .jumbotron
+    h1 stock.js
+    p.lead An open-source platform for building stock exchanging games with node.js
+    a.btn.btn-large.btn-success(href='#') Install now
+  hr
+  .row-fluid
+    .span4
+      h2 API
+      p A minimalistic API, designed for an easy fit with your needs
+      p
+        a.btn(href='#') Read more »
+    .span4
+      h2 Getting Started
+      p
+        | Go right ahead and install with: 
+        code npm install stock
+      p
+        a.btn(href='#') Read more »
+    .span4
+      h2 Contribute
+      p Fork me now on github and help make stock.js a great platform!
+      p
+        a.btn(href='#') Read more »
