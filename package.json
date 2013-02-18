@@ -7,7 +7,7 @@
   "engines": {
     "node": "0.8.x"
   },
-  "version": "0.0.1-1",
+  "version": "0.0.1-2",
   "main": "server.js",
   "private": true,
   "dependencies": {
